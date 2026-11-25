@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "folate-twin"
+version = "1.0.0"
+description = "Physics-informed neural network digital twin of plasma-tumour uptake and retention of folate-targeted polymeric nanoparticles in breast cancer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Mohammad (Behdad) Jamshidi" },
+    { name = "Morteza Jamshidi" },
+    { name = "Omid Moztarzadeh" },
+    { name = "Vahid Yaghoubi Naei" },
+    { name = "Brian F. Yates" },
+]
+keywords = [
+    "physics-informed neural networks", "digital twin", "pharmacokinetics",
+    "nanomedicine", "breast cancer", "deep Galerkin method", "residual-based attention",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "openpyxl>=3.1",
+    "pillow>=9.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/MBJamshidi/Folate-Polymers-Twin"
+
+[project.scripts]
+folate-twin = "folate_twin.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+folate_twin = ["reference/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: renders every figure (deselect with -m 'not slow')"]

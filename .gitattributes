@@ -1,0 +1,7 @@
+# Normalise source text; keep result files byte-exact.
+* text=auto
+*.png binary
+*.pdf binary
+*.xlsx binary
+results/** -text
+src/folate_twin/reference/*.csv -text

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, its data or its results, please cite the article below."
+title: "Folate-Polymers-Twin: physics-informed neural network digital twin of plasma-tumour nanoparticle pharmacokinetics"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/MBJamshidi/Folate-Polymers-Twin"
+keywords:
+  - physics-informed neural networks
+  - digital twin
+  - pharmacokinetics
+  - nanomedicine
+  - breast cancer
+authors:
+  - family-names: Jamshidi
+    given-names: "Mohammad (Behdad)"
+    affiliation: "School of Electrical, Mechanical and Biomedical Engineering, University of Technology Sydney, NSW 2007, Australia"
+  - family-names: Jamshidi
+    given-names: Morteza
+  - family-names: Moztarzadeh
+    given-names: Omid
+  - family-names: "Yaghoubi Naei"
+    given-names: Vahid
+  - family-names: Yates
+    given-names: "Brian F."
+preferred-citation:
+  type: article
+  title: "A Physics-Informed Neural Network Digital Twin for Tracking Compartmental Uptake-Retention Dynamics in Breast Cancer Nanomedicine"
+  journal: "ACS Omega"
+  year: 2026
+  authors:
+    - family-names: Jamshidi
+      given-names: "Mohammad (Behdad)"
+    - family-names: Jamshidi
+      given-names: Morteza
+    - family-names: Moztarzadeh
+      given-names: Omid
+    - family-names: "Yaghoubi Naei"
+      given-names: Vahid
+    - family-names: Yates
+      given-names: "Brian F."
