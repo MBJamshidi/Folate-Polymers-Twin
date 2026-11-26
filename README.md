@@ -1,7 +1,6 @@
 # Folate-Polymers-Twin
 
-**A physics-informed neural network digital twin for tracking compartmental
-uptake–retention dynamics in breast cancer nanomedicine**
+**Quantifying Macromolecular Transport and Retention Kinetics of Folate-Targeted Polymers in Breast Cancer: A Physics-Informed Differentiable Digital Twin Approach**
 
 [![tests](https://github.com/MBJamshidi/Folate-Polymers-Twin/actions/workflows/tests.yml/badge.svg)](https://github.com/MBJamshidi/Folate-Polymers-Twin/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
